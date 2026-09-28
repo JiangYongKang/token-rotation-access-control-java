@@ -1,0 +1,19 @@
+package com.github.highcumontoa.tokenrotationaccesscontroljava.model;
+
+public enum DenyReason {
+    MISSING_TOKEN,
+    MALFORMED_TOKEN,
+    UNSUPPORTED_TOKEN_TYPE,
+    UNKNOWN_SIGNING_KEY,
+    INVALID_SIGNATURE,
+    EXPIRED_TOKEN,
+    SESSION_NOT_FOUND,
+    SESSION_REVOKED,
+    USER_NOT_FOUND,
+    USER_DISABLED,
+    CREDENTIALS_CHANGED,
+    ACCESS_DENIED,
+    LOGIN_FAILED,
+    REFRESH_TOKEN_REUSE,
+    CONCURRENT_REFRESH_LOST
+}
